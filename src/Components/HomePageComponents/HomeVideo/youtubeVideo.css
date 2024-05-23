@@ -1,0 +1,24 @@
+.video-full-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Style for the h1 heading */
+  .video-full-wrapper h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  
+  /* Style for the YouTube video container */
+  .video-full-wrapper .youtube-video-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Style for the YouTube video player */
+  .video-full-wrapper .youtube-video-player {
+    width: 100%;
+  }
+  

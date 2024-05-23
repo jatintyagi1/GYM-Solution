@@ -1,0 +1,38 @@
+.our-Service-wrapper {
+    padding: 20px;
+    text-align: center;
+}
+
+.inner-wrapper {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.our-Service-container h1 {
+    margin-bottom: 50px;
+    margin-top: -30px;
+    font-size: 40px;
+}
+
+.Service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.Service-item {
+    text-align: center;
+}
+
+.Service-item img {
+    width: 100px;
+    padding: 10px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.Service-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
