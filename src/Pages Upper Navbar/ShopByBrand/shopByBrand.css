@@ -1,0 +1,26 @@
+/* ImageGrid.css */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 40px;
+    justify-items: center; /* Center images horizontally */
+    box-sizing: border-box;
+  }
+  
+  .grid-image {
+    width: 400px; /* Decreased width */
+    height: 200px; /* Decreased height */
+    object-fit: cover; /* Ensure image covers the box without distortion */
+    border: 2px solid #ddd; /* Add border */
+    border-radius: 10px; /* Add border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for transform and shadow */
+  }
+  
+  .grid-image:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
