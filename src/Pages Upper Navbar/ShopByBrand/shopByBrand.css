@@ -1,12 +1,16 @@
-/* ImageGrid.css */
+.full-page-wrapper{
+  padding: 5px 30px;
+}
+
 
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    padding: 40px;
+    grid-gap: 20px;
+    padding: 40px 100px;
     justify-items: center; /* Center images horizontally */
     box-sizing: border-box;
+    object-fit: cover;
   }
   
   .grid-image {
@@ -23,4 +27,6 @@
     transform: scale(1.05); /* Slightly increase size on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
   }
+
+
   

@@ -54,6 +54,15 @@
   cursor: pointer;
 }
 
+.upper-second-container li a{
+  text-decoration: none;
+  color: #a9a9a9;
+}
+
+.upper-second-container li a:hover{
+  color: gold;
+}
+
 .upper-second-container li:hover{
   color: gold;
 }

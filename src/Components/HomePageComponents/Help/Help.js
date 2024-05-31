@@ -16,11 +16,9 @@ const Help = () => {
   return (
     <div className='outer-wrapper'>
       <h1>WE CAN HELP WITH</h1>
-      <div className='text-top-wrapper'>
         <div className='text-items'>
         <p className='upper-text'>As one of India’s leading gym equipment suppliers, we have a wide range of high-quality gym equipment</p>
-        <p className='lower-text'>for sale from a variety of industry-leading brands. We also offer:</p>
-        </div>
+        <p className='lower-text'>for sale from a variety of industry-leading brands. We also offer:</p>       
         <div className="image-grid">
           {HelpImage.map((item, index) => (
             <div key={index} className="image-container">

@@ -1,0 +1,18 @@
+.full-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.question-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 45px;
+}
+
+.faqs-text{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

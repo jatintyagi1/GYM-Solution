@@ -23,13 +23,15 @@
 .brand-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);/* Four columns */
-    grid-gap: 30px;
+    grid-gap: 40px;
+    margin-left: 25px;
+    padding-left: 20px;
 }
 
 /* Style for individual brand items */
 .brand-item {
-    width: 50%;/* Ensure the image fills the grid cell */
-    height: auto; /* Maintain aspect ratio */
+    width: 70%;/* Ensure the image fills the grid cell */
+    height: 70%; /* Maintain aspect ratio */
     max-width: 100%;  /* Ensure the image fits within its container */
     cursor: pointer;  
 }

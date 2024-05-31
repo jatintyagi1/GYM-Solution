@@ -38,15 +38,17 @@ const images = [
 
 const ShopByBrand = () => {
     return (
-        <div className="image-grid">
-            {images.map((image, index) => (
-                <a href={image.link} key={index} target="_blank" rel="noopener noreferrer">
-                    <img src={image.url} alt={`image-${index + 1}`} className="grid-image" />
-                </a>
+        <div className='full-page-wrapper'> 
+         <div className="image-grid">
+             {images.map((image, index) => (
+                 <a href={image.link} key={index} target="_blank" rel="noopener noreferrer">
+                    <div className='real-image'>
+                     <img src={image.url} alt={`image-${index + 1}`} className="grid-image" />
+                     </div>
+                 </a>
             ))}
-        </div>
-
-
+          </div>
+   </div>
     )
 }
 

@@ -1,7 +1,7 @@
 /* Navbar Wrapper */
 .navbar-wrapper {
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #c1ccd6;
 }
 
 /* Upper Navbar */
@@ -19,12 +19,28 @@
     margin-left: 3%;
 }
 
-.navbar-upper-left-container p {
+.phone-icon{
+    color: white;
+    cursor: pointer;
+}
+
+
+.mobile-number {
     font-size: 14px;
     color: white;
     cursor: pointer;
     margin: 0;
     padding: 0 10px;
+}
+
+.phone-icon:hover, .mobile-number:hover{
+   opacity: 0.7;
+}
+
+.navbar-upper-middle-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .navbar-upper-middle-container ul {
@@ -43,6 +59,12 @@
     cursor: pointer;
 }
 
+/* Ensure the color of navbar links is white */
+.navbar-upper-middle-container ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+
 .navbar-upper-middle-container ul li:hover {
     opacity: 0.7;
 }
@@ -50,7 +72,7 @@
 .navbar-upper-right-container {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 20px;
 }
 
 .cart-icon,
@@ -91,115 +113,124 @@
     background-color: #0056b3;
 }
 
-/* Lower Navbar */
+/* Lower Navbar item design start here */
 
-.navbar-wrapper-lower-container {
+.navbar-wrapper-lower-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
 }
 
-.navbar-lower-left-container {
+.navbar-lower-left-container{
     display: flex;
     align-items: center;
-}
-
-.navbar-lower-left-container img {
-    height: 70px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-.navbar-lower-middle-container {
-    display: flex;
     justify-content: center;
-    flex-grow: 1;
-    margin-left: 60px;
+    padding: 0px 15px;
 }
 
-.navbar-lower-middle-container ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.navbar-lower-left-container img{
+    margin-left: 50px;
+}
+
+.navbar-lower-middle-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 40px;
+    margin-left: 17px;
 }
 
-.navbar-lower-middle-container ul li {
-    font-size: 16px;
-    color: #333;
-    cursor: pointer;
+.navbar-lower-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
-.navbar-lower-middle-container ul li a {
+.navbar-lower-list li{
+    font-size: 20px;
+}
+
+.navbar-lower-list li a{
+    color: black;
     text-decoration: none;
-    color: inherit;
 }
 
-.navbar-lower-middle-container ul li:hover {
-    color: #007bff;
+.navbar ul li a.active {
+    color: red; /* Change to your desired color */
+    /* Add any other styles you want for the active link */
+  }
+
+.navbar-lower-middle-container ul li:last-child {
+    margin-right: 200px; 
 }
 
-.navbar-lower-right-container {
+.navbar-lower-right-container{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.signup-button {
-    padding: 8px 15px;
-    background-color: rgb(37, 174, 229);
-    margin-left: 100px;
-   
-    color: white;
-    border: none;
+.signup-button{
+    background-color: #007bff;
+    padding: 8px 18px;
     border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-.signup-button:hover {
-    background-color: #0056b3;
+
+
+
+
+/* Responsive Web Design  */
+
+@media (max-width: 740px) {
+
+    /* For Upper Navbar */
+    .navbar-upper-left-container{ 
+        display: none;
+    }
+    .phone-icon{
+        display: none;
+    }
+    .mobile-number{
+        display: none;
+    }
+    .navbar-upper-middle-container{
+        display: none;
+    }
+    .navbar-upper-right-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cart-icon{
+        margin-left: 120px;
+    }
+
+    .search-icon{
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    /* For Lower Navbar */
+    .navbar-lower-left-container{
+        display: flex;
+    }
+    .navbar-lower-left-container img{
+        width: 150px;
+        height: 8vh;
+        margin-left: -1px;
+    }
+    .navbar-lower-middle-container{
+        display: none;
+    }
+    .navbar-lower-right-container{
+        display: none;
+    }
+    .signup-button{
+        display: none;
+    }
+    
 }
 
-/* Overlay for SignUp Form */
-.signup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.signup-overlay-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 1001;
-}
-
-.close-btn {
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 5px 10px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 16px;
-}
-
-.close-btn:hover {
-    background-color: darkred;
-}

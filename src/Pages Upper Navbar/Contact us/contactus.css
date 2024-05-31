@@ -1,0 +1,114 @@
+/* Full Page */
+
+.full-page-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left Page */
+.left-page-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.upper-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.phone-heading{
+    margin-top: 10px;
+}
+.opening-hour-heading{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.saturday-text{
+    margin-top: -10px;
+}
+.lower-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    margin-top: 20px;
+}
+.lower-left-text{
+    font-size: 20px;
+}
+
+/* Right page */
+
+/* .right-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.right-page-wrapper {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.right-page-wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width:740px){
+    .full-page-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-page-wrapper{
+        width: 300px;
+    }
+}

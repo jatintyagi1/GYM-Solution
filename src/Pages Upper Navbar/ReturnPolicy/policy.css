@@ -1,0 +1,17 @@
+
+.full-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 45px;
+}
+.main-upper-text{
+    text-align: center;
+    margin-bottom: 30px;
+}

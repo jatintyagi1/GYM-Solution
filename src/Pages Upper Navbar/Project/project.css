@@ -1,0 +1,76 @@
+.middle-container-wrapper {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.top-our-project-text {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #333;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px; /* Adjust this width as per your requirement */
+  height: 65vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: fill;
+}
+
+.image-content {
+  padding: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.image-title {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.image-description {
+  margin: 10px 0;
+  font-size: 19px;
+  color: #000000;
+}
+
+.image-button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-button:hover {
+  background-color: #000000;
+}
