@@ -15,6 +15,18 @@ import Brand_12 from './../../Assets/images/Brand_12.png'
 import Brand_13 from './../../Assets/images/Brand_13.png'
 import Brand_14 from './../../Assets/images/Brand_14.png'
 import Brand_15 from './../../Assets/images/Brand_15.png'
+import Brand_16 from './../../Assets/images/Brand_16.png'
+import Brand_17 from './../../Assets/images/Brand_17.png'
+import Brand_18 from './../../Assets/images/Brand_18.png'
+import Brand_19 from './../../Assets/images/Brand_19.png'
+import Brand_20 from './../../Assets/images/Brand_20.png'
+import Brand_21 from './../../Assets/images/Brand_21.png'
+import Brand_22 from './../../Assets/images/Brand_22.png'
+import Brand_23 from './../../Assets/images/Brand_23.png'
+import Brand_24 from './../../Assets/images/Brand_24.png'
+import Brand_25 from './../../Assets/images/Brand_25.png'
+import Brand_26 from './../../Assets/images/Brand_26.png'
+import Brand_27 from './../../Assets/images/Brand_27.png'
 
 const images = [
     { url: Brand_1, link: 'https://link1.com' },
@@ -32,6 +44,18 @@ const images = [
     { url: Brand_13, link: 'https://link13.com' },
     { url: Brand_14, link: 'https://link14.com' },
     { url: Brand_15, link: 'https://link15.com' },
+    { url: Brand_16, link: 'https://link16.com' },
+    { url: Brand_17, link: 'https://link17.com' },
+    { url: Brand_18, link: 'https://link18.com' },
+    { url: Brand_19, link: 'https://link19.com' },
+    { url: Brand_20, link: 'https://link20.com' },
+    { url: Brand_21, link: 'https://link21.com' },
+    { url: Brand_22, link: 'https://link22.com' },
+    { url: Brand_23, link: 'https://link23.com' },
+    { url: Brand_24, link: 'https://link24.com' },
+    { url: Brand_25, link: 'https://link25.com' },
+    { url: Brand_26, link: 'https://link26.com' },
+    { url: Brand_27, link: 'https://link27.com' },
 ];
 
 
@@ -43,7 +67,7 @@ const ShopByBrand = () => {
              {images.map((image, index) => (
                  <a href={image.link} key={index} target="_blank" rel="noopener noreferrer">
                     <div className='real-image'>
-                     <img src={image.url} alt={`image-${index + 1}`} className="grid-image" />
+                     <img src={image.url} alt={`${index + 1}`} className="grid-image" />
                      </div>
                  </a>
             ))}

@@ -1,0 +1,134 @@
+/* src/components/sale.css */
+.Sale-full-page-wrapper {
+    padding: 0px 0px;
+  }
+
+  .sale-upper-text-wrapper{
+    background-color: #333;
+    height: 50vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sale-top-text{
+    color: white;
+    text-align: center;
+  }
+
+  .sale-top-para{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .sale-image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .sale-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .sale-grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sale-grid-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .sale-image-description {
+    padding: 15px;
+  }
+  
+  .sale-image-description p {
+    margin: 10px 0;
+  }
+  
+  .sale-price {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .sale-current-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #d9534f; /* Bootstrap danger color */
+  }
+  
+  .sale-original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+  }
+  
+  .sale-discount-price {
+    font-size: 1em;
+    color: #5cb85c; /* Bootstrap success color */
+    margin-left: 10px;
+  }
+  
+  .sale-image-description button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sale-image-description button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 1200px) {
+    .sale-image-grid {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 30px 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sale-image-grid {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+      padding: 20px;
+    }
+  
+    .sale-grid-item {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sale-image-grid {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    .Sale-full-page-wrapper {
+      padding: 10px;
+    }
+  }
+  
