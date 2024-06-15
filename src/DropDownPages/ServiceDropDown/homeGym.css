@@ -1,0 +1,123 @@
+
+
+
+.home-gym-top-background-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 50vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-gym-top-text-heading{
+    color: white;
+}
+
+.home-gym-main-container-wrapper{
+    padding: 0px 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.home-gym-para-a,.home-gym-para-b,.home-gym-para-c,
+.home-gym-para-d,.home-gym-para-e{
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.home-gym-image-top-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    grid-gap: 10px;  
+    margin: 20px 0;
+  }
+  
+  .home-image-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .home-gym-image-lower-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .home-image{
+    width: 33%;
+  }
+
+  @media (max-width: 768px) {
+    .home-gym-main-container-wrapper {
+        padding: 0px 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .home-gym-para-a, .home-gym-para-b, .home-gym-para-c, 
+    .home-gym-para-d, .home-gym-para-e {
+        font-size: 1.1em;
+    }
+    .home-gym-image-top-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .home-gym-image-lower-container {
+        flex-direction: column;
+    }
+    .home-image {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .home-gym-main-container-wrapper {
+        padding: 0px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .home-gym-para-a, .home-gym-para-b, .home-gym-para-c, 
+    .home-gym-para-d, .home-gym-para-e {
+        font-size: 1em;
+    }
+    .home-gym-image-top-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .home-gym-image-lower-container {
+        flex-direction: column;
+    }
+    .home-image {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .home-gym-main-container-wrapper {
+        padding: 0px 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .home-gym-para-a, .home-gym-para-b, .home-gym-para-c, 
+    .home-gym-para-d, .home-gym-para-e {
+        font-size: 0.9em;
+    }
+    .home-gym-image-top-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .home-gym-image-lower-container {
+        flex-direction: column;
+    }
+    .home-image {
+        width: 100%;
+    }
+}
+

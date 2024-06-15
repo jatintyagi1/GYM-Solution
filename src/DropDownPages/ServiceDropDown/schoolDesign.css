@@ -1,0 +1,120 @@
+
+
+.school-top-background-design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 50vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.school-top-heading-text{
+    color: white;
+}
+
+.school-main-content-wrapper{
+    padding: 0px 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.school-main-content-heading-text-a,
+.school-main-content-heading-text-b{
+    margin-bottom: 10px;
+}
+
+.school-para-a,.school-para-b,.school-para-c,
+.school-para-d,.school-para-e,.school-para-f{
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.school-image-container-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .image-item {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .school-main-list-item-container{
+    color: #000000;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+
+  @media (max-width : 768px){
+    .school-main-content-wrapper{
+        padding: 0px 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .school-para-a,.school-para-b,.school-para-c,
+    .school-para-d,.school-para-e,.school-para-f{
+        font-size: 1.1em;
+    }
+
+    .school-image-container-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .school-main-list-item-container{
+        font-size: 1em;
+    }
+
+  }
+
+  @media (max-width : 480px){
+    .school-main-content-wrapper{
+        padding: 0px 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .school-para-a,.school-para-b,.school-para-c,
+    .school-para-d,.school-para-e,.school-para-f{
+        font-size: 1em;
+    }
+
+    .school-image-container-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .school-main-list-item-container{
+        font-size: 1em;
+    }
+
+  }
+  @media (max-width : 320px){
+    .school-main-content-wrapper{
+        padding: 0px 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .school-para-a,.school-para-b,.school-para-c,
+    .school-para-d,.school-para-e,.school-para-f{
+        font-size: 0.9em;
+    }
+
+    .school-image-container-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .school-main-list-item-container{
+        font-size: 0.9em;
+    }
+
+  }
+

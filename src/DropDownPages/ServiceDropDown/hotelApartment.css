@@ -1,0 +1,123 @@
+
+
+.hotel-top-background-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50vh;
+}
+
+.hotel-top-text-heading{
+    color: white;
+}
+
+.hotel-main-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hotel-para-a,.hotel-para-b,.hotel-para-c,
+.hotel-para-d,.hotel-para-e,.hotel-para-f,
+.hotel-para-g,.hotel-para-h,.hotel-para-i{
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.hotel-image-container-a,.hotel-image-container-b,
+.hotel-image-container-c,.hotel-image-container-d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.hotel-list-item-top-container,
+.hotel-list-item-lower-container{
+    color: #000000;
+    font-size: 1.2em;
+}
+
+
+@media (max-width : 768px){
+    .hotel-main-content-wrapper{
+        padding: 0px 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .hotel-para-a,.hotel-para-b,.hotel-para-c,.hotel-para-d,
+    .hotel-para-e,.hotel-para-f,.hotel-para-g,.hotel-para-h,
+    .hotel-para-i{
+        font-size: 1.1em;
+    }
+
+    .hotel-image-container-a,.hotel-image-container-b,
+    .hotel-image-container-c,.hotel-image-container-d{
+        max-width: 100%;
+    }
+    .hotel-image-item{
+        width: 100%;
+        height: auto;
+    }
+    .hotel-list-item-top-container,
+    .hotel-list-item-lower-container{
+        font-size: 1em;
+    }
+    
+}
+
+@media (max-width : 480px){
+    .hotel-main-content-wrapper{
+        padding: 0px 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .hotel-para-a,.hotel-para-b,.hotel-para-c,.hotel-para-d,
+    .hotel-para-e,.hotel-para-f,.hotel-para-g,.hotel-para-h,
+    .hotel-para-i{
+        font-size: 1em;
+    }
+
+    .hotel-image-container-a,.hotel-image-container-b,
+    .hotel-image-container-c,.hotel-image-container-d{
+        max-width: 100%;
+    }
+    .hotel-image-item{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width : 320px){
+    .hotel-main-content-wrapper{
+        padding: 0px 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .hotel-para-a,.hotel-para-b,.hotel-para-c,.hotel-para-d,
+    .hotel-para-e,.hotel-para-f,.hotel-para-g,.hotel-para-h,
+    .hotel-para-i{
+        font-size: 0.9em;
+    }
+
+    .hotel-image-container-a,.hotel-image-container-b,
+    .hotel-image-container-c,.hotel-image-container-d{
+        max-width: 100%;
+    }
+    .hotel-image-item{
+        width: 100%;
+        height: auto;
+    }
+
+}

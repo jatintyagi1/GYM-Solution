@@ -15,8 +15,8 @@ const Footer = () => {
                 <div className='gym-logo'>
                     <img src={GYM_Solution_logo} alt=''></img>
                 </div>
-                <div className='gym-address-container'>
-                    <h4>Gym Solution India</h4>
+                <div className='footer-gym-address-container'>
+                    <h4 className='gym-address-container'>Gym Solution India</h4>
                     <p>18 Mac Person</p>
                     <p>New Delhi</p>
                     <p>India</p>
@@ -27,8 +27,8 @@ const Footer = () => {
                 <ul>
                     <li><Link to='/contact-us'>Contact us</Link></li>
                     <li><Link  to='/about-us'>About Us</Link></li>
-                    <li>New Delhi</li>
-                    <li>Mumbai</li>
+                    <li><Link to='/New-Delhi'>New Delhi</Link></li>
+                    <li><Link to='/Mumbai'>Mumbai</Link></li>
                 </ul>
             </div>
             <div className='upper-third-container'>
@@ -42,7 +42,7 @@ const Footer = () => {
             <div className='upper-fourth-container'>
                 <h4>SIGN UP TO OUR MAILING LIST</h4>
                 <input type='email'></input>
-                <button>Subscribe</button>
+                <button className='footer-subscribe-button'>Subscribe</button>
             </div>
         </div>
         <div className='footer-lower-wrapper'>

@@ -37,8 +37,8 @@ const SignIn = () => {
     };
 
     return (
-        <div className="container mt-5">
-            <div className="row justify-content-center">
+        <div className="container mt-5 mv-5">
+            <div className="row justify-content-center mb-5">
                 <div className="col-md-4">
                     <div className="card">
                         <div className="card-body">
@@ -78,6 +78,7 @@ const SignIn = () => {
                                             <div className="invalid-feedback">{errors.password.message}</div>
                                         )}
                                     </div>
+                                    <Link className='d-block mt-2 mb-2'>Forgot Password?</Link>
                                 </div>
                                 <button type="submit" className="btn btn-primary w-100" >Sign In</button>
                             </form>

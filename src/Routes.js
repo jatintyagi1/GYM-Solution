@@ -23,6 +23,13 @@ import Contactus from './Pages Upper Navbar/Contact us/Contactus'
 import Cart from './Pages Upper Navbar/Cart/Cart'
 import SignUp from './Components/Signup/signup';
 import Signin from './Components/Signin/signin';
+import GymDesign from './DropDownPages/ServiceDropDown/3DgymDesign';
+import CommHealthClub from './DropDownPages/ServiceDropDown/CommHealthClub';
+import HotelApartment from './DropDownPages/ServiceDropDown/Hotel&Apartment';
+import SchoolGym from './DropDownPages/ServiceDropDown/SchoolGym';
+import HomeGym from './DropDownPages/ServiceDropDown/HomeGym';
+import Profile from './Components/CoreComponents/MyAccount/Profile';
+import Sauna from './DropDownPages/WellnessDropDown/Sauna';
 
 
 const Routing = () => {
@@ -55,6 +62,19 @@ const Routing = () => {
     <Route path='/Blog-News' element={<BlogNews/>}/>
     <Route path='/Contact-us' element={<Contactus/>}/>
     <Route path='/Cart' element={<Cart/>}/>
+
+
+     {/* dropdown routes of service page */}
+    <Route path='/Service/3D-Gym-Design' element={<GymDesign/>}/>
+    <Route path='/Service/commercial-health-club' element={<CommHealthClub/>}/>
+    <Route path='/Service/hotel-&-apartment' element={<HotelApartment/>}/>
+    <Route path='/service/school-gym' element={<SchoolGym/>}/>
+    <Route path='/service/home-gym' element={<HomeGym/>}/>
+
+    {/*dropdown route for wellness */}
+    <Route path='/Product/Wellness/Saunas' element={<Sauna/>}/>
+
+    <Route path='/My-Profile' element={<Profile/>}/>
   </Routes>
   )
 }

@@ -1,10 +1,9 @@
 import React from 'react'
-import Appe from '../../Examples/Appe';
 
 const Cardio = () => {
   return (
     <div>
-      <Appe/>
+    <h1>Cardio</h1>
     </div>
   )
 }

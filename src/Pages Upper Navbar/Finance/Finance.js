@@ -8,7 +8,7 @@ const Finance = () => {
       <h1 className='finance-commercial-customer'>Commercial Customer : </h1>
       <div className='finance-top-wrapper'>
         <h2 className='finance-top-wrapper-top-text'>Fit Lease | Gym Equipment Finance Broker</h2>
-        <p className='finance-upper-paragraph'>Fit Lease is Australia’s only dedicated gym equipment finance broker. We understand the financial requirements of the fitness industry and we can find you the right solution regardless of your size.</p>
+        <p className='finance-upper-paragraph'>Fit Lease is India's only dedicated gym equipment finance broker. We understand the financial requirements of the fitness industry and we can find you the right solution regardless of your size.</p>
        <ul className='finance-upper-list-container'>
         <li>New ventures are welcomed</li>
         <li>No financials needed</li>
@@ -24,7 +24,7 @@ const Finance = () => {
 
       <div className='finance-middle-wrapper'>
         <h2 className='finance-middle-top-text-heading'>Procuret | B2B Buy Now, Pay Later</h2>
-        <p className='finance-middle-para-a'>Procuret is an Australian payments company that provides digital payment products for business. Providing fast, flexible and secure digital payment solutions for businesses to better manage their cash-flow.</p>
+        <p className='finance-middle-para-a'>Procuret is an India's payments company that provides digital payment products for business. Providing fast, flexible and secure digital payment solutions for businesses to better manage their cash-flow.</p>
         <p className='finance-middle-para-b'>Purchase what you need today and pay in manageable monthly instalments!</p>
         <ul className='finance-middle-list-container'>
           <li>Pay in monthly instalments of 3, 6 or 12 months</li>

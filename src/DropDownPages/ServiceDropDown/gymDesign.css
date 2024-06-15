@@ -1,0 +1,100 @@
+.gym-design-page-full-wrapper {
+    margin-bottom: 10px;
+}
+
+.gym-design-page-top-background-wrapper {
+    background-color: #333;
+    height: 50vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gym-design-top-heading {
+    color: white;
+}
+
+.gym-design-main-container-wrapper {
+    padding: 0px 100px;
+    margin-top: 40px;
+}
+
+.gym-design-para-a,
+.gym-design-para-b,
+.gym-design-para-c,
+.gym-design-para-d,
+.gym-design-para-e {
+    margin-top: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+.gym-design-top-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gym-design-middle-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gym-design-middle-image-container img {
+    height: 38vh;
+    width: 33%;
+}
+
+.gym-design-lower-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+
+/* responsive Design */
+
+@media (max-width : 768px) {
+    .gym-design-main-container-wrapper {
+        padding: 0px 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .gym-design-top-image-container,
+    .gym-design-middle-image-container,
+    .gym-design-lower-image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .gym-design-top-image-container img,
+    .gym-design-middle-image-container img,
+    .gym-design-lower-image-container img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width : 480px) {}
+
+@media (max-width : 320px) {}

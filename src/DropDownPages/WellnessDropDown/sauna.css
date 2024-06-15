@@ -1,0 +1,121 @@
+/* General styles */
+.saunas-main-full-wrapper {
+    font-family: Arial, sans-serif;
+}
+
+.saunas-top-background-wallpaper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 50vh;
+    color: white;
+    margin-top: 10px;
+}
+
+.saunas-top-background-wallpaper h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/* Grid layout for desktop */
+.saunas-bottom-grid-div {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    width: 100%;
+}
+
+.saunas-product-category-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.saunas-seprating-line {
+    background-color: #000;
+    height: auto;
+    width: 2px;
+}
+
+.saunas-main-container-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: auto;
+    justify-items: center;
+    width: 100%;
+    gap: 25px;
+    padding: 20px;
+    height: fit-content;
+}
+
+/* Image container styles */
+.saunas-image-container {
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    background-color: #fff;
+}
+
+.sauna-gallery-image {
+    width: 100%;
+    height: 60vh;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.sauna-image-description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.sauna-enquire-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sauna-enquire-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .saunas-top-background-wallpaper{
+        height: 20vh;
+    }
+    .saunas-bottom-grid-div {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .saunas-product-category-container {
+       display: none;
+    }
+
+    .saunas-main-container-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .saunas-main-container-wrapper {
+        grid-template-columns: 1fr; /* 1 column */
+        gap: 10px;
+    }
+
+    .saunas-image-container {
+        max-width: 100%; /* Full width of the container */
+    }
+}

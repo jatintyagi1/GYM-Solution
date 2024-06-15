@@ -26,12 +26,16 @@
   max-width: 80%;
 }
 
-.gym-address-container h4 {
+.footer-gym-address-container{
+
+}
+
+.footer-gym-address-container h4 {
   margin: 10px 0;
   font-size: 18px;
 }
 
-.gym-address-container p {
+.footer-gym-address-container p {
   margin: 5px 0;
   color: #a9a9a9;
 }
@@ -90,7 +94,7 @@
   color: #ffffff;
 }
 
-.upper-fourth-container button {
+.footer-subscribe-button {
   padding: 8px 20px;
   border: none;
   background-color: gray;
@@ -99,7 +103,7 @@
   border-radius: 4px;
 }
 
-.upper-fourth-container button:hover{
+.footer-subscribe-button:hover{
   background-color: #31dafb;
 }
 

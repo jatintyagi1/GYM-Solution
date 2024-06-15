@@ -1,0 +1,109 @@
+.wellnes-top-background-wallpaper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 50vh;
+    color: white;
+    margin-top: 10px;
+}
+
+.wellnes-bottom-grid-div {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    width: 100%;
+}
+
+.wellness-seprating-line {
+    background-color: #000000;
+    height: auto;
+    width: 2px;
+}
+.wellnes-main-container-wrapper {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-template-rows: auto; /* Create rows based on content height */
+    gap: 20px; /* Space between image cards */
+    justify-items: center; /* Center items horizontally */
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding around the gallery */
+}
+
+.image-container {
+    text-align: center; /* Center text inside each image card */
+    max-width: 300px; /* Adjust as needed */
+    object-fit: contain;
+}
+
+.wellnes-gallery-image {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    object-fit: contain;
+}
+
+.wellnes-image-description {
+    margin: 10px 0; /* Space above and below the description */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #555; /* Description text color */
+}
+
+.wellnes-enquire-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Button text size */
+    margin-top: 10px; /* Space above the button */
+}
+
+.enquire-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+    color: white;
+}
+
+/* Adjusting the existing wellness-product-category-container style if needed */
+.wellness-product-category-container {
+    flex: 1; /* Make it take up remaining space */
+    padding: 20px; /* Padding inside the product category container */
+    border-radius: 8px; /* Rounded corners */
+    margin-right: 25px; /* Space to the right of the container */
+}
+
+
+
+ /* modile responsive */
+
+ @media (max-width:760px){
+    .wellnes-top-background-wallpaper{
+        height: 15vh;
+    }
+    .wellness-product-category-container,
+    .wellness-seprating-line{
+        display: none;
+    }
+
+    .wellnes-main-container-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-container{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .wellnes-bottom-grid-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .special-image-9 .enquire-button{
+       margin-bottom: 50px;
+    }
+ }
+
