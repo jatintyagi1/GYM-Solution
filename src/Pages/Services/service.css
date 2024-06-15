@@ -64,16 +64,21 @@
 
 
 @media (max-width:768px){
+    .service-top-wrapper{
+        height: 20vh;
+    }
     .service-image-grid{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    
+    }    
 }
 
 @media (max-width:480px){
+    .service-top-wrapper{
+        height: 20vh;
+    }
     .service-top-para-text{
         padding: 0px 20px;
     }
@@ -83,16 +88,17 @@
         align-items: center;
         justify-content: center;
     }
-
 }
 
 @media (max-width:320px){
+    .service-top-wrapper{
+        height: 20vh;
+    }
     .service-image-grid{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-
 }
 

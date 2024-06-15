@@ -30,6 +30,8 @@ import SchoolGym from './DropDownPages/ServiceDropDown/SchoolGym';
 import HomeGym from './DropDownPages/ServiceDropDown/HomeGym';
 import Profile from './Components/CoreComponents/MyAccount/Profile';
 import Sauna from './DropDownPages/WellnessDropDown/Sauna';
+import HotTubs from './DropDownPages/WellnessDropDown/hotTubs';
+import ColdPlunges from './DropDownPages/WellnessDropDown/coldPlunge';
 
 
 const Routing = () => {
@@ -73,8 +75,11 @@ const Routing = () => {
 
     {/*dropdown route for wellness */}
     <Route path='/Product/Wellness/Saunas' element={<Sauna/>}/>
+    <Route path='/Product/Wellness/Hot-tubs' element={<HotTubs/>}/>
+    <Route path='/Product/Wellness/cold-plunges' Wellness={<ColdPlunges/>}/>
 
     <Route path='/My-Profile' element={<Profile/>}/>
+
   </Routes>
   )
 }

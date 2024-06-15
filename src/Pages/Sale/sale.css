@@ -1,4 +1,4 @@
-/* src/components/sale.css */
+
 .Sale-full-page-wrapper {
     padding: 0px 0px;
   }
@@ -102,29 +102,52 @@
   
   /* Responsive Adjustments */
   @media (max-width: 1200px) {
+    .sale-upper-text-wrapper{
+      height: 20vh;
+      padding: 0px;
+    }
     .sale-image-grid {
-      grid-template-columns: repeat(2, 1fr);
-      padding: 30px 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
   }
   
   @media (max-width: 768px) {
+    .sale-upper-text-wrapper{
+      height: 20vh;
+      padding: 0px;
+    }
     .sale-image-grid {
-      grid-template-columns: repeat(1, 1fr);
-      gap: 15px;
-      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
   
     .sale-grid-item {
-      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: none;
+      box-shadow: none;
+      overflow: visible;
     }
   }
   
   @media (max-width: 480px) {
+    .sale-upper-text-wrapper{
+      height: 20vh;
+      padding: 0px;
+    }
     .sale-image-grid {
-      grid-template-columns: repeat(1, 1fr);
-      gap: 10px;
-      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
   
     .Sale-full-page-wrapper {

@@ -59,6 +59,9 @@
 }
 
 @media (max-width : 768px){
+    .gym-design-page-top-background-wrapper{
+        height: 20vh;
+    }
     .health-club-top-video-wrapper{
         max-width: 100%;
         height: auto;
@@ -87,6 +90,11 @@
         max-width: 100%;
     }
 
+    .gym-design-middle-image-container img{
+        object-fit: cover;
+        width: 100%;
+    }
+
     .health-club-top-image-container img{
         width: 100%;
         height: auto;
@@ -101,6 +109,9 @@
 }
 
 @media (max-width : 480px){
+    .gym-design-page-top-background-wrapper{
+        height: 20vh;
+    }
     .health-club-top-video-wrapper{
         max-width: 100%;
         height: auto;
@@ -136,6 +147,9 @@
 }
 
 @media (max-width : 320px){
+    .gym-design-page-top-background-wrapper{
+        height: 20vh;
+    }
     .health-club-top-video-wrapper{
         max-width: 100%;
         height: auto;
