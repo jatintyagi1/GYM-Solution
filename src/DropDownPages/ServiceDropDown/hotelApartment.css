@@ -47,6 +47,9 @@
 
 
 @media (max-width : 768px){
+    .hotel-top-background-wrapper{
+        height: 20vh;
+    }
     .hotel-main-content-wrapper{
         padding: 0px 50px;
         margin-top: 50px;
