@@ -106,13 +106,13 @@ const Navbar = () => {
               <Link to="/Weight">Weight</Link>
               {dropdown === 'Weight' && (
                 <ul className='dropdown-menu'>
-                  <li><Link to="/Weight/Dumbbells">Barbells</Link></li>
-                  <li><Link to="/Weight/Plates">Bench</Link></li>
-                  <li>Olympic Plates</li>
-                  <li>Kettlebells</li>
-                  <li>Dumbbells</li>
-                  <li>Storage</li>
-                  <li>Accessories</li>
+                  <li><Link to='/Product/Weight/barbells'>Barbells</Link></li>
+                  <li><Link to='/Product/Weight/bench'>Bench</Link></li>
+                  <li><Link to='/Product/weight/olympic-plates'>Olympic Plates</Link></li>
+                  <li><Link to='/Product/weight/Kettle-bells'>Kettlebells</Link></li>
+                  <li><Link to='/Product/weight/dumbells'>Dumbbells</Link></li>
+                  <li><Link to='/Product/weight/storage'>Storage</Link></li>
+                  <li><Link to='/Product/weight/accessories'>Accessories</Link></li>
                   <li></li>
                 </ul>
               )}

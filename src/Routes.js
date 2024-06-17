@@ -37,6 +37,13 @@ import FunctionalCardio from './DropDownPages/FunctionalDropDown/FunctionalCardi
 import FunctionalTrainer from './DropDownPages/FunctionalDropDown/FunctionalTrainer';
 import Rigs from './DropDownPages/FunctionalDropDown/Rigs';
 import OtherEquipments from './DropDownPages/FunctionalDropDown/otherEquipments';
+import Barbells from './DropDownPages/WeightDropDown/Barbells';
+import Bench from './DropDownPages/WeightDropDown/Bench';
+import OlympicPlates from './DropDownPages/WeightDropDown/OlympicPlates';
+import KettleBells from './DropDownPages/WeightDropDown/KettleBells';
+import Dumbells from './DropDownPages/WeightDropDown/Dumbells';
+import Storage from './DropDownPages/WeightDropDown/Storage';
+import Accessories from './DropDownPages/WeightDropDown/Accessories';
 
 
 const Routing = () => {
@@ -90,6 +97,15 @@ const Routing = () => {
     <Route path='/Product/Functional/functional-trainer' element={<FunctionalTrainer/>}/>
     <Route path='/Product/Functional/rigs' element={<Rigs/>}/>
     <Route path='/Product/Functional/other-equipments' element={<OtherEquipments/>}/>
+
+     {/* Dropdown routes for Weight */}
+    <Route path='/Product/Weight/barbells' element={<Barbells/>}/>
+    <Route path='/Product/Weight/bench' element={<Bench/>}/>
+    <Route path='/Product/Weight/olympic-plates' element={<OlympicPlates/>}/>
+    <Route path='/Product/Weight/Kettle-bells' element={<KettleBells/>}/>
+    <Route path='/Product/Weight/dumbells' element={<Dumbells/>}/>
+    <Route path='/Product/Weight/storage' element={<Storage/>}/>
+    <Route path='/Product/Weight/accessories' element={<Accessories/>}/>
 
     <Route path='/My-Profile' element={<Profile/>}/>
 
