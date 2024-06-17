@@ -125,11 +125,11 @@ const Navbar = () => {
               <Link to="/Functional">Functional</Link>
               {dropdown === 'Functional' && (
                 <ul className='dropdown-menu'>
-                  <li>Boxing Equipment</li>
-                  <li>Functional Cardio</li>
-                  <li>Functional Trainers</li>
-                  <li>Rigs</li>
-                  <li>Other Functional Equipments</li>
+                  <li><Link to='/Product/Functional/boxing-equipment'>Boxing Equipment</Link></li>
+                  <li><Link to='/Product/Functional/functional-cardio'>Functional Cardio</Link></li>
+                  <li><Link to='/Product/Functional/functional-trainer'>Functional Trainers</Link></li>
+                  <li><Link to='/Product/Functional/rigs'>Rigs</Link></li>
+                  <li><Link to='/Product/Functional/other-equipments'>Other Functional Equipments</Link></li>
                   <li></li>
                 </ul>
               )}
@@ -145,7 +145,7 @@ const Navbar = () => {
                 <ul className='dropdown-menu'>
                   <li><Link to='/Product/Wellness/Saunas'>Saunas</Link></li>
                   <li><Link to='/Product/Wellness/Hot-tubs'>Hot Tubes</Link></li>
-                  <li><Link to='/Product/Wellness/cold-plunges'>Cold Plunges</Link></li>
+                  <li><Link to='/Product/Wellness/cold'>Cold Plunges</Link></li>
                   <li></li>
                 </ul>
               )}

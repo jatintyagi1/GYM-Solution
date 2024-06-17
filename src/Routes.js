@@ -32,6 +32,11 @@ import Profile from './Components/CoreComponents/MyAccount/Profile';
 import Sauna from './DropDownPages/WellnessDropDown/Sauna';
 import HotTubs from './DropDownPages/WellnessDropDown/hotTubs';
 import ColdPlunges from './DropDownPages/WellnessDropDown/coldPlunge';
+import BoxingEquipment from './DropDownPages/FunctionalDropDown/BoxingEquipment';
+import FunctionalCardio from './DropDownPages/FunctionalDropDown/FunctionalCardio';
+import FunctionalTrainer from './DropDownPages/FunctionalDropDown/FunctionalTrainer';
+import Rigs from './DropDownPages/FunctionalDropDown/Rigs';
+import OtherEquipments from './DropDownPages/FunctionalDropDown/otherEquipments';
 
 
 const Routing = () => {
@@ -77,7 +82,14 @@ const Routing = () => {
     {/*dropdown route for wellness */}
     <Route path='/Product/Wellness/Saunas' element={<Sauna/>}/>
     <Route path='/Product/Wellness/Hot-tubs' element={<HotTubs/>}/>
-    <Route path='/Product/Wellness/cold-plunges' Wellness={<ColdPlunges/>}/>
+    <Route path='/Product/Wellness/cold' Wellness={<ColdPlunges/>}/>
+
+    {/* Dropdown routes for Functional */}
+    <Route path='/Product/Functional/boxing-equipment' element={<BoxingEquipment/>}/>
+    <Route path='/Product/Functional/functional-cardio' element={<FunctionalCardio/>}/>
+    <Route path='/Product/Functional/functional-trainer' element={<FunctionalTrainer/>}/>
+    <Route path='/Product/Functional/rigs' element={<Rigs/>}/>
+    <Route path='/Product/Functional/other-equipments' element={<OtherEquipments/>}/>
 
     <Route path='/My-Profile' element={<Profile/>}/>
 
