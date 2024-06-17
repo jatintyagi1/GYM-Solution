@@ -32,6 +32,7 @@
 
 .image-container {
     text-align: center; /* Center text inside each image card */
+    align-items: center;
     max-width: 300px; /* Adjust as needed */
     object-fit: contain;
 }

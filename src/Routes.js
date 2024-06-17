@@ -37,7 +37,7 @@ import ColdPlunges from './DropDownPages/WellnessDropDown/coldPlunge';
 const Routing = () => {
   return (
     <Routes>
-      
+      {/* Lower Navbar Routes */}
     <Route path="/" element={<Home />} />
     <Route path="/cardio" element={<Cardio />} />
     <Route path="/Strength" element={<Strength />} />
@@ -48,16 +48,17 @@ const Routing = () => {
     <Route path='/Service' element={<Service/>} />
     <Route path='/Sale' element={<Sale/>} />
 
+    {/* Sign-up-Sign-in Routes */}
     <Route path='/Signup' element={<SignUp/>}/>
     <Route path='/Sign-in' element={<Signin/>}/>
    
+   {/* Upper Navbar Routes */}
     <Route path='/Shop-By-Brand' element={<ShopByBrand/>}/>
     <Route path='/Refurbishment' element={<Refurbishment/>}/>
     <Route path='/Project' element={<Project/>}/>
     <Route path='/Video' element={<Video/>}/>
     <Route path='/Finance' element={<Finance/>}/>
     <Route path='/Warranty' element={<Warranty/>}/>
-    
     <Route path='/Return-Policy' element={<ReturnPolicy/>}/>
     <Route path='/FAQS' element={<Faqs/>}/>
     <Route path='/About-us' element={<Aboutus/>}/>

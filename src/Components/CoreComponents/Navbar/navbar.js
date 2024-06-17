@@ -118,54 +118,54 @@ const Navbar = () => {
               )}
             </li>
             <li
-             onMouseEnter={() => handleMouseEnter('Functional')}
-             onMouseLeave={handleMouseLeave}
-             className='nav-item'
-            >
-            <Link to="/Functional">Functional</Link>
-            {dropdown === 'Functional' && (
-                <ul className='dropdown-menu'>
-                   <li>Boxing Equipment</li>
-                   <li>Functional Cardio</li>
-                   <li>Functional Trainers</li>
-                   <li>Rigs</li>
-                   <li>Other Functional Equipments</li>
-                   <li></li>
-                </ul>
-            )}
-            </li>
-            <li><Link to="/Flooring">Flooring</Link></li> 
-            <li
-              onMouseEnter={()=> handleMouseEnter('Wellness')}
+              onMouseEnter={() => handleMouseEnter('Functional')}
               onMouseLeave={handleMouseLeave}
               className='nav-item'
             >
-            <Link to="/Wellness">Wellness</Link>
-            {dropdown === 'Wellness' && (
+              <Link to="/Functional">Functional</Link>
+              {dropdown === 'Functional' && (
                 <ul className='dropdown-menu'>
-                    <li><Link to='/Product/Wellness/Saunas'>Saunas</Link></li>
-                    <li><Link to='/Product/Wellness/Hot-tubs'>Hot Tubes</Link></li>
-                    <li><Link to='/Product/Wellness/cold-plunges'>Cold Plunges</Link></li>
-                    <li></li>
+                  <li>Boxing Equipment</li>
+                  <li>Functional Cardio</li>
+                  <li>Functional Trainers</li>
+                  <li>Rigs</li>
+                  <li>Other Functional Equipments</li>
+                  <li></li>
                 </ul>
-            )}
+              )}
+            </li>
+            <li><Link to="/Flooring">Flooring</Link></li>
+            <li
+              onMouseEnter={() => handleMouseEnter('Wellness')}
+              onMouseLeave={handleMouseLeave}
+              className='nav-item'
+            >
+              <Link to="/Wellness">Wellness</Link>
+              {dropdown === 'Wellness' && (
+                <ul className='dropdown-menu'>
+                  <li><Link to='/Product/Wellness/Saunas'>Saunas</Link></li>
+                  <li><Link to='/Product/Wellness/Hot-tubs'>Hot Tubes</Link></li>
+                  <li><Link to='/Product/Wellness/cold-plunges'>Cold Plunges</Link></li>
+                  <li></li>
+                </ul>
+              )}
             </li>
             <li
-             onMouseEnter={()=> handleMouseEnter('Service')}
-             onMouseLeave={handleMouseLeave}
-             className='nav-item'
+              onMouseEnter={() => handleMouseEnter('Service')}
+              onMouseLeave={handleMouseLeave}
+              className='nav-item'
             >
-            <Link to="/Service">Services</Link>
-           {dropdown === 'Service' && (
-             <ul className='dropdown-menu'>
-             <li><Link to='/Service/3d-Gym-Design'>3D Gym Design</Link></li>
-             <li><Link to='/Service/commercial-health-club'>Commercial Health Club</Link></li>
-             <li><Link to='/Service/hotel-&-apartment'>Hotel & Apartment</Link></li>
-             <li><Link to='/Service/school-gym'>School Gym</Link></li>
-             <li><Link to='/Service/home-gym'>Home Gym</Link></li>
-             <li></li>
-         </ul>
-           )}
+              <Link to="/Service">Services</Link>
+              {dropdown === 'Service' && (
+                <ul className='dropdown-menu'>
+                  <li><Link to='/Service/3d-Gym-Design'>3D Gym Design</Link></li>
+                  <li><Link to='/Service/commercial-health-club'>Commercial Health Club</Link></li>
+                  <li><Link to='/Service/hotel-&-apartment'>Hotel & Apartment</Link></li>
+                  <li><Link to='/Service/school-gym'>School Gym</Link></li>
+                  <li><Link to='/Service/home-gym'>Home Gym</Link></li>
+                  <li></li>
+                </ul>
+              )}
             </li>
             <li><Link to="/Sale">Sale</Link></li>
           </ul>

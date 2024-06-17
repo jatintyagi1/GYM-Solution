@@ -210,9 +210,11 @@ body {
     padding: 8px 18px;
     border-radius: 10px;
   }
+
+  
   
   /* Responsive Web Design */
-  @media (max-width: 740px) {
+  @media (max-width: 768px) {
     /* For Upper Navbar */
     .navbar-upper-left-container { 
       display: none;
