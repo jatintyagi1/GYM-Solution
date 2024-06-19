@@ -5,7 +5,7 @@ import Cardio from './Pages/Cardio/Cardio'
 import Strength from './Pages/Strength/Strength'
 import FreeWeight from './Pages/Free Weight/FreeWeight'
 import Functional from './Pages/Functional/Functional'
-import Flooring from './Pages/Functional/Functional'
+import Floorings from './Pages/Flooring/Flooring';
 import Wellness from './Pages/Wellness/Wellnes'
 import Service from './Pages/Services/Service'
 import Sale from './Pages/Sale/Sale'
@@ -46,6 +46,7 @@ import Storage from './DropDownPages/WeightDropDown/Storage';
 import Accessories from './DropDownPages/WeightDropDown/Accessories';
 
 
+
 const Routing = () => {
   return (
     <Routes>
@@ -55,7 +56,7 @@ const Routing = () => {
     <Route path="/Strength" element={<Strength />} />
     <Route path="/Weight" element={<FreeWeight />} />
     <Route path='/Functional' element={<Functional/>} />
-    <Route path='/Flooring' element={<Flooring/>} />
+    <Route path='/Flooring' element={<Floorings/>} />
     <Route path='/Wellness' element={<Wellness/>} />
     <Route path='/Service' element={<Service/>} />
     <Route path='/Sale' element={<Sale/>} />
@@ -89,7 +90,7 @@ const Routing = () => {
     {/*dropdown route for wellness */}
     <Route path='/Product/Wellness/Saunas' element={<Sauna/>}/>
     <Route path='/Product/Wellness/Hot-tubs' element={<HotTubs/>}/>
-    <Route path='/Product/Wellness/cold' Wellness={<ColdPlunges/>}/>
+    <Route path='/Product/Wellness/cold-plunges' Wellness={<ColdPlunges/>}/>
 
     {/* Dropdown routes for Functional */}
     <Route path='/Product/Functional/boxing-equipment' element={<BoxingEquipment/>}/>

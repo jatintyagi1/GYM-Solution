@@ -145,7 +145,7 @@ const Navbar = () => {
                 <ul className='dropdown-menu'>
                   <li><Link to='/Product/Wellness/Saunas'>Saunas</Link></li>
                   <li><Link to='/Product/Wellness/Hot-tubs'>Hot Tubes</Link></li>
-                  <li><Link to='/Product/Wellness/cold'>Cold Plunges</Link></li>
+                  <li><Link to='/Product/Wellness/cold-plunges'>Cold Plunges</Link></li>
                   <li></li>
                 </ul>
               )}

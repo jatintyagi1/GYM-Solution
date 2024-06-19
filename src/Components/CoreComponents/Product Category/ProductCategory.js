@@ -18,7 +18,7 @@ const ProductCategory = () => {
             <Link className='product-category-main-links'>Cross Trainers</Link>
             <Link className='product-category-main-links'>Dumbbells</Link>
             <Link className='product-category-main-links'>Ergometer</Link>
-            <Link className='product-category-main-links'>Flooring</Link>
+            <Link to='/Flooring'  className='product-category-main-links'>Flooring</Link>
             <Link className='product-category-main-links'>Free Weight</Link>
             <Link className='product-category-main-links'>Free Weight Accessories</Link>
             <Link className='product-category-main-links'>Functional - Other</Link>

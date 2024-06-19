@@ -1,0 +1,151 @@
+
+.flooring-pages-outer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.flooring-top-page-background-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #333;
+    height: 50vh;
+    margin-top: 10px;
+}
+
+.flooring-main-container-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    width: 100%;
+}
+
+.flooring-product-category-container{
+  width: 15%;
+}
+
+.flooring-left-image-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.flooring-left-upper-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.flooring-left-upper-div p{
+    text-align: start;
+    font-size: 1.2em;
+}
+
+.flooring-bold-text{
+    text-align: start;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+}
+
+.Flooring-product-image-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px;
+  }
+  
+  .flooring-image-container-wrapper {
+    flex: 0 0 32%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .flooring-image-container-wrapper:hover {
+    transform: scale(1.05);
+  }
+  
+  .flooring-gallery-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .flooring-image-description {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .flooring-product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e67e22;
+  }
+  
+  .flooring-enquire-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .flooring-enquire-button:hover {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+
+
+
+  /* Web Responsive */
+
+  @media (max-width: 768px) {
+    .flooring-top-page-background-wrapper{
+        height: 30vh;
+    }
+    .flooring-product-category-container{
+        display: none;
+    }
+    .flooring-main-container-wrapper {
+        padding: 20px;
+    }
+    .flooring-image-container-wrapper {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .flooring-product-category-container{
+        display: none;
+    }
+    .flooring-left-upper-div p {
+        font-size: 1em;
+    }
+    .flooring-bold-text {
+        font-size: 1.1em;
+    }
+    .flooring-product-price {
+        font-size: 1rem;
+    }
+    .flooring-enquire-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+  
