@@ -1,29 +1,29 @@
 
-.product-category-main-wrapper{
+.brand-category-main-wrapper{
     display: flex;
     flex-direction: column;
 }
 
-.product-category-main-item-container{
+.brand-category-main-item-container{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
 }
 
-.product-category-top-heading{
+.brand-category-top-heading{
     color: black;
     font-weight: bold;
 }
 
-.product-category-main-links{
+.brand-category-main-link{
     color: gray;
     text-decoration: none;
     cursor: pointer;
     margin-bottom: 3px;
 }
 
-.product-category-main-links:hover{
+.brand-category-main-link:hover{
     cursor: pointer;
     color: red;
 }

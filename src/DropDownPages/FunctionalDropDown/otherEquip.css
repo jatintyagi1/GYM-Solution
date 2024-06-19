@@ -1,0 +1,21 @@
+
+
+.other-equip-top-background-wallpaper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    height: 50vh;
+}
+
+.other-eqipment-main-container-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.other-equipment-category-container-wrapper{
+    display: flex;
+    flex-direction: column;
+}

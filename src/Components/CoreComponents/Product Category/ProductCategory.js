@@ -6,7 +6,7 @@ const ProductCategory = () => {
   return (
     <div className='product-category-main-wrapper'>
         <div className='product-category-main-item-container'>
-            <p>PRODUCT CATEGORIES</p>
+            <p className='product-category-top-heading'>PRODUCT CATEGORIES</p>
             <Link className='product-category-main-links'>Accessories</Link>
             <Link className='product-category-main-links'>Barbels</Link>
             <Link className='product-category-main-links'>Benches</Link>
