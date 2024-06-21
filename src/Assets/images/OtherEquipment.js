@@ -43,7 +43,7 @@ const OtherEquipImage = [
     {
         src: Other_Equipment_4,
         alt: 'Image',
-        description : '',
+        description : 'AKTIV VIRTUAL',
         price: '',
         buttonText: 'ENQUIRE HERE'
     },
@@ -64,35 +64,35 @@ const OtherEquipImage = [
     {
         src: Other_Equipment_7,
         alt: 'Image',
-        description : '',
-        price: '$',
+        description : 'NINJA GRIPS CONES',
+        price: '$165',
         buttonText: 'ENQUIRE HERE'
     },
     {
         src: Other_Equipment_8,
         alt: 'Image',
-        description : '',
+        description : 'NINJA GRIPS SPHERES 3″ RED',
         price: '$155.00',
         buttonText: 'ENQUIRE HERE'
     },
     {
         src: Other_Equipment_9,
         alt: 'Image',
-        description : '',
+        description : 'NINJA GRIPS 2.5″ SPHERE BLUE',
         price: '$145.00',
         buttonText: 'ENQUIRE HERE'
     },
     {
         src: Other_Equipment_10,
         alt: 'Image',
-        description : '',
+        description : 'AKTIV STRAPS',
         price: '$260.00',
         buttonText: 'ENQUIRE HERE'
     },
     {
         src: Other_Equipment_11,
         alt: 'Image',
-        description : '',
+        description : '4D PRO REACTION TRAINER – ELASTIC SLING TRAINER',
         price: '$150.00',
         buttonText: 'ENQUIRE HERE'
     },
