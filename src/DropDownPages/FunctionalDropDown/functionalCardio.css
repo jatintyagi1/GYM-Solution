@@ -1,0 +1,107 @@
+
+
+
+
+.functional-cardio-top-background-wallpaper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 50vh;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+
+.functional-cardio-bottom-main-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.functional-cardio-category-container-wrapper{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.functional-cardio-image-item-container{
+    width: 80%;
+}
+
+.functional-cardio-image-item-outer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.functional-cardio-image-item-conatiner {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.functional-cardio-image-item-conatiner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.functional-cardio-gallery-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.functional-cardio-image-description,
+.functional-cardio-product-price {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.rigs-enquire-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.rigs-enquire-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+/* Web Responsive */
+
+@media (max-width:768px){
+    .functional-cardio-top-background-wallpaper{
+        height: 20vh;
+    }
+    .functional-cardio-category-container-wrapper{
+        display: none;
+    }
+    .functional-cardio-image-item-outer-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .functional-cardio-image-item-container{
+        width: 100%;
+    }
+}
