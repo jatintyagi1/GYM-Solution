@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import FunctionalTrainingImage from '../../Assets/images/FunctionalTrainer';
 import ProductCategory from '../../Components/CoreComponents/Product Category/ProductCategory';
 import BrandCategory from './../../Components/CoreComponents/Brand Category/BrandCategory';
-import './functionalTrainer.css'; // Import the CSS file
+import './functionalTrainer.css'; 
 
 const FunctionalTrainer = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -25,7 +25,7 @@ const FunctionalTrainer = () => {
   return (
     <div className='ft-top-container-wrapper'>
       <div className='ft-top-background-wallpaper'>
-        <h1>RIGS</h1>
+        <h1>FUNCTIONAL TRAINERS</h1>
       </div>
       <div className='ft-main-container-wrapper'>
         <div className='ft-category-container-wrapper'>
