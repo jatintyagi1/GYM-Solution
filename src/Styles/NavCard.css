@@ -1,0 +1,86 @@
+.navCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #ba161d;
+    width: 100%;
+}
+
+
+.navCard-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    height: 100%;
+}
+
+.phone-icon {
+    color: white;
+    cursor: pointer;
+}
+
+.mobile-number {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.phone-icon:hover,
+.mobile-number:hover {
+    opacity: 0.7;
+}
+
+
+.navCard-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navCard-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navCard-menu-list li {
+    margin: 0 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.navCard-menu-list li:hover {
+    opacity: 0.7;
+}
+
+.navCard-menu-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navCard-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-icon,
+.search-icon {
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.cart-icon:hover,
+.search-icon:hover {
+    transform: scale(1.2);
+}
