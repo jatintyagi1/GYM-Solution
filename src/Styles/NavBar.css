@@ -1,0 +1,95 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-gym-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.navbar-gym-name img {
+    margin-left: 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 17px;
+}
+
+.navbar-menu-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.navbar-menu-list li {
+    font-size: 20px;
+    position: relative;
+}
+
+.navbar-menu-list li:hover{
+    color: blue;
+}
+
+.navbar-menu-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    list-style: none;
+    height: auto;
+    width: 300px;
+    z-index: 1000;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+}
+
+.dropdown-menu li {
+    padding: 5px;
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+.dropdown-menu li:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-user-account {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-user-account button {
+    background-color: #007bff;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
