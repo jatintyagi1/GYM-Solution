@@ -1,95 +1,115 @@
+/* General Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #2c3e50; 
+    padding: 10px 20px; /* Spacing around the navbar */
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
-.navbar-gym-name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 15px;
-}
-
+/* Centered Logo */
 .navbar-gym-name img {
-    margin-left: 50px;
+    height: 52px; /* Logo height */
+    margin: 0 auto;
+    margin-left: 20px; /* Spacing on the left */
+    cursor: pointer; /* Pointer cursor for logo */
 }
 
+/* Navbar Menu */
 .navbar-menu {
+    flex-grow: 1; /* Allows the menu to grow */
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 17px;
+    justify-content: center; /* Center the menu */
+    align-items: center; /* Align items vertically */
 }
 
 .navbar-menu-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-.navbar-menu-list li {
-    font-size: 20px;
-    position: relative;
-}
-
-.navbar-menu-list li:hover{
-    color: blue;
+    display: flex; /* Horizontal layout */
+    gap: 30px; /* Space between items */
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    transition: all 0.3s ease; /* Smooth transition for dropdown */
 }
 
 .navbar-menu-list li a {
-    color: black;
-    text-decoration: none;
+    text-decoration: none; /* Remove underline */
+    color: #ecf0f1; /* Light text color */
+    font-size: 18px; /* Font size for menu items */
+    transition: color 0.3s ease; /* Smooth transition for color */
+    padding: 10px; /* Padding for clickable area */
+    font-weight: 500; /* Medium weight */
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    list-style: none;
-    height: auto;
-    width: 300px;
-    z-index: 1000;
+.navbar-menu-list li a:hover {
+    color: #f39c12; /* Color on hover */
 }
 
-.nav-item:hover .dropdown-menu {
-    display: block;
-    margin-top: 0px;
-}
-
-.dropdown-menu li {
-    padding: 5px;
-    color: black;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-size: 19px;
-}
-
-.dropdown-menu li:hover {
-    color: red;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-.navbar-user-account {
-    display: flex;
-    align-items: center;
-}
-
+/* Account Button */
 .navbar-user-account button {
-    background-color: #007bff;
-    padding: 8px 18px;
-    border-radius: 10px;
+    background-color: #f39c12; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 20px; /* Rounded button */
+    cursor: pointer; /* Pointer cursor for button */
+    font-size: 16px; /* Font size for button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.navbar-user-account button:hover {
+    background-color: #e67e22; /* Darker on hover */
+}
+
+/* Hamburger Menu */
+.hamburger-icon-navbar {
+    display: none; /* Initially hidden */
+    cursor: pointer; /* Pointer cursor for clickable icon */
+    color: #ecf0f1; /* Color to match navbar text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-menu-list {
+        display: none; /* Hide menu on small screens */
+    }
+
+    .navbar-menu-list.open {
+        display: flex; /* Show menu when open */
+        flex-direction: column; /* Stack items vertically */
+        position: absolute; /* Absolute positioning */
+        top: 60px; /* Position below navbar */
+        left: 0; /* Align to left */
+        width: 100%; /* Full width */
+        background-color: #34495e; /* Change color for better visibility */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
+        padding: 20px 0; /* Padding for dropdown */
+        text-align: center; /* Center text */
+        z-index: 100; /* Ensure it’s above other content */
+    }
+
+    .navbar-user-account {
+        display: flex; /* Show account button on small screens */
+        justify-content: flex-end; /* Align button to the right */
+        flex-grow: 1; /* Allow button to take space */
+    }
+
+    .navbar-user-account button{
+        display: none; /* Hide account button on small screens */
+    }
+
+    .hamburger-icon-navbar {
+        display: block; /* Show hamburger icon */
+        font-size: 30px; /* Adjust size if needed */
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-user-account {
+        display: flex; /* Show account button on larger screens */
+    }
 }
