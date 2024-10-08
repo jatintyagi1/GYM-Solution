@@ -2,85 +2,132 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
-    background-color: #ba161d;
-    width: 100%;
+    padding: 15px 25px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1000;
 }
 
-
+/* Right Section */
 .navCard-right {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    height: 100%;
+    gap: 15px;
 }
 
-.phone-icon {
-    color: white;
-    cursor: pointer;
+.navCard-right .mobile-number {
+    font-size: 15px;
+    color: #007bff;
+    font-weight: 500;
 }
 
-.mobile-number {
-    font-size: 14px;
-    color: white;
-    cursor: pointer;
-    margin: 0;
-    padding: 0 10px;
-}
-
-.phone-icon:hover,
-.mobile-number:hover {
-    opacity: 0.7;
-}
-
-
+/* Menu Section */
 .navCard-menu {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .navCard-menu-list {
+    display: flex;
+    gap: 25px;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.navCard-menu-list li {
-    margin: 0 10px;
-    font-size: 14px;
-    color: white;
-    cursor: pointer;
-}
-
-.navCard-menu-list li:hover {
-    opacity: 0.7;
+    font-weight: 500;
 }
 
 .navCard-menu-list li a {
-    color: white;
+    font-size: 15px;
+    color: #343a40;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
+.navCard-menu-list li a:hover {
+    color: #007bff;
+}
+
+/* Left Section */
 .navCard-left {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+.search-icon,
+.phone-icon,
 .cart-icon,
-.search-icon {
+.hamburger-icon {
     cursor: pointer;
-    color: white;
-    transition: transform 0.3s ease;
+    font-size: 20px;
 }
 
-.cart-icon:hover,
-.search-icon:hover {
-    transform: scale(1.2);
+.cart-icon-wrapper {
+    position: relative;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+/* Hamburger Menu */
+.hamburger-icon {
+    display: none;
+}
+
+/* Hover effects */
+.navCard-menu-list li a {
+    color: #333;
+}
+
+.navCard-menu-list li a:hover {
+    color: #007bff;
+}
+
+/* Responsive Design - Media Queries */
+@media (max-width: 768px) {
+    .navCard-menu {
+        display: none;
+    }
+
+    .navCard-menu.open {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .navCard-menu-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .navCard-right .mobile-number {
+        display: none;
+    }
+
+    .cart-badge {
+        top: 0;
+        right: 0;
+    }
 }
