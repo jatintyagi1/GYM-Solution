@@ -33,7 +33,7 @@ export default function Navbar() {
             </section>
 
             <div className="navbar-user-account">
-                <button>My Account</button>
+                <Link to='/register'><button>My Account</button></Link>
                 <FontAwesomeIcon
                     icon={faBars}
                     className="icon hamburger-icon-navbar"
