@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const Home = lazy(() => import('../Pages/Home'));
 const Register = lazy(() => import('../Pages/Register'))
 const Login = lazy(() => import('../Pages/Login'));
+
+const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'))
+
 const NotFound = lazy(() => import('../Pages/NotFound/index'));
 
 
@@ -15,6 +18,7 @@ function Routing() {
                     <Route path="/" element={<Home />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path='/Contact-us' element={<ContactUs />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Suspense>
