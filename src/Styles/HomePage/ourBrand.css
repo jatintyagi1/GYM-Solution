@@ -1,0 +1,74 @@
+/* General Styles */
+.our-brand-section {
+    padding: 60px 20px;
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: none;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid Layout */
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 70px;
+    justify-items: center;
+    align-items: center;
+}
+
+.brand-item img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand-item img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .brand-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+
+    .brand-item img {
+        max-width: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .brand-grid {
+        grid-template-columns: repeat(1, 1fr); /* Single column on extra small screens */
+    }
+
+    .brand-item img {
+        max-width: 400px;
+        
+    }
+}
