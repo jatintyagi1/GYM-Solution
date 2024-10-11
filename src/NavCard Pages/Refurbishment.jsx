@@ -1,20 +1,20 @@
 import React from 'react';
-import './refurbishment.css';
+import './../Styles/NavCardPage/refurbishment.css';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import axios from 'axios';
-import Clean_Service from './../../Assets/images/Clean_Service.png';
-import Recondition from './../../Assets/images/Recondition.png';
-import Refurbishment_A from './../../Assets/images/Refurbishment_A.png';
-import Before_1 from './../../Assets/images/Before_1.png';
-import Before_2 from './../../Assets/images/Before_2.png';
-import Before_3 from './../../Assets/images/Before_3.png';
-import Before_4 from './../../Assets/images/Before_4.png';
-import After_1 from './../../Assets/images/After_1.png';
-import After_2 from './../../Assets/images/After_2.png';
-import After_3 from './../../Assets/images/After_3.png';
-import After_4 from './../../Assets/images/After_4.png';
+import Clean_Service from './../Assets/images/Clean_Service.png';
+import Recondition from './../Assets/images/Recondition.png';
+import Refurbishment_A from './../Assets/images/Refurbishment_A.png';
+import Before_1 from './../Assets/images/Before_1.png';
+import Before_2 from './../Assets/images/Before_2.png';
+import Before_3 from './../Assets/images/Before_3.png';
+import Before_4 from './../Assets/images/Before_4.png';
+import After_1 from './../Assets/images/After_1.png';
+import After_2 from './../Assets/images/After_2.png';
+import After_3 from './../Assets/images/After_3.png';
+import After_4 from './../Assets/images/After_4.png';
 
 const schema = yup.object().shape({
   name: yup.string().required('Name is required'),

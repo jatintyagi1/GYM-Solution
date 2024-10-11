@@ -13,8 +13,10 @@ const Register = lazy(() => import('../Pages/Register'))
 const Login = lazy(() => import('../Pages/Login'));
 
 // NavCard Navigation
-const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'))
-const ShopByBrand = lazy(() => import('../NavCard Pages/ShopByBrand'))
+const ShopByBrand = lazy(() => import('../NavCard Pages/ShopByBrand'));
+const Refurbishment = lazy(() => import('../NavCard Pages/Refurbishment'))
+const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'));
+
 
 const NotFound = lazy(() => import('../Pages/NotFound/index'));
 
@@ -33,6 +35,7 @@ function Routing() {
                         <Route path='/Contact-us' element={<ContactUs />} />
 
                         <Route path='/Shop-By-Brand' element={<ShopByBrand />} />
+                        <Route path='/Refurbishment' element={<Refurbishment />} />
 
 
                         <Route path="*" element={<NotFound />} />
