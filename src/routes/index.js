@@ -5,11 +5,16 @@ import Navbar from '../Components/Header/Navbar';
 import NavCard from '../Components/Header/NavCard';
 import Footer from '../Components/Footer/Footer';
 
+// Navbar Navigation
 const Home = lazy(() => import('../Pages/Home'));
+
+// Auth Routes
 const Register = lazy(() => import('../Pages/Register'))
 const Login = lazy(() => import('../Pages/Login'));
 
+// NavCard Navigation
 const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'))
+const ShopByBrand = lazy(() => import('../NavCard Pages/ShopByBrand'))
 
 const NotFound = lazy(() => import('../Pages/NotFound/index'));
 
@@ -26,6 +31,10 @@ function Routing() {
                         <Route path="/register" element={<Register />} />
                         <Route path="/login" element={<Login />} />
                         <Route path='/Contact-us' element={<ContactUs />} />
+
+                        <Route path='/Shop-By-Brand' element={<ShopByBrand />} />
+
+
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                     <Footer />
