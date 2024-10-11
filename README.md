@@ -38,7 +38,7 @@ We operate from our headquarters at New Delhi, and we ship across India and inte
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/gym-solution.git
-cd gym-solution
+git clone https://github.com/jatintyagi1/GYM-Solution.git
+cd GYM-SOLUTION
 npm install
 ```
