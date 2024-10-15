@@ -1,6 +1,6 @@
 import React from 'react'
-import './about.css'
-import About_Us from './../../Assets/images/About_Us.png'
+import '../Styles/NavCardPage/about.css';
+import About_Us from '../Assets/images/About_Us.png'
 
 const Aboutus = () => {
   return (
