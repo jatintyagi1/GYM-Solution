@@ -16,6 +16,7 @@ const Login = lazy(() => import('../Pages/Login'));
 const ShopByBrand = lazy(() => import('../NavCard Pages/ShopByBrand'));
 const Refurbishment = lazy(() => import('../NavCard Pages/Refurbishment'));
 const Project = lazy(() => import('../NavCard Pages/Project'));
+const Finance = lazy(() => import('../NavCard Pages/Finance'));
 const AboutUs = lazy(() => import('../NavCard Pages/AboutUs'));
 const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'));
 
@@ -38,6 +39,7 @@ function Routing() {
                         <Route path='/Shop-By-Brand' element={<ShopByBrand />} />
                         <Route path='/Refurbishment' element={<Refurbishment />} />
                         <Route path='/Project' element={<Project />} />
+                        <Route path='/Finance' element={<Finance />} />
                         <Route path='/About-us' element={<AboutUs />} />
                         <Route path='/Contact-us' element={<ContactUs />} />
 

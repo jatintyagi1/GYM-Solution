@@ -1,5 +1,5 @@
 import React from 'react'
-import './finance.css'
+import '../Styles/NavCardPage/finance.css';
 
 const Finance = () => {
   return (
