@@ -1,5 +1,7 @@
 {
-  "name": "frontend",
+  "name": "Gym-Solution",
+  "author": "Jatin Tyagi",
+  "url": "gym-solution.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +17,7 @@
     "bootstrap-icons": "^1.11.3",
     "formik": "^2.4.6",
     "frontend": "file:",
+    "Gym-Solution": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.5",
