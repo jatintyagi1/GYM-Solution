@@ -1,11 +1,11 @@
 import React from 'react'
-import './warranty.css'
-import Brand_3 from './../../Assets/images/Brand_3.png'
-import Brand_9 from './../../Assets/images/Brand_9.png'
-import Brand_6 from './../../Assets/images/Brand_6.png'
-import Brand8 from './../../Assets/logo/Brand8.png'
-import True_Logo from './../../Assets/images/True_Logo.png'
-import Gym_rax from './../../Assets/images/Gym_rax.png'
+import '../Styles/NavCardPage/warranty.css'
+import Brand_3 from './../Assets/images/Brand_3.png';
+import Brand_9 from './../Assets/images/Brand_9.png'
+import Brand_6 from './../Assets/images/Brand_6.png'
+import Brand8 from './../Assets/logo/Brand8.png'
+import True_Logo from './../Assets/images/True_Logo.png'
+import Gym_rax from './../Assets/images/Gym_rax.png'
 
 const Warranty = () => {
   return (
