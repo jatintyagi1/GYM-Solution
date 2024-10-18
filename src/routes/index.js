@@ -13,12 +13,12 @@ const Register = lazy(() => import('../Pages/Register'))
 const Login = lazy(() => import('../Pages/Login'));
 
 // NavCard Navigation
-const ShopByBrand = lazy(() => import('../NavCard Pages/ShopByBrand'));
-const Refurbishment = lazy(() => import('../NavCard Pages/Refurbishment'));
-const Project = lazy(() => import('../NavCard Pages/Project'));
-const Finance = lazy(() => import('../NavCard Pages/Finance'));
-const Warranty = lazy(() => import('../NavCard Pages/Warranty'));
-const AboutUs = lazy(() => import('../NavCard Pages/AboutUs'));
+const ShopByBrand = lazy(() => import('../NavCardPages/ShopByBrand'));
+const Refurbishment = lazy(() => import('../NavCardPages/Refurbishment'));
+const Project = lazy(() => import('../NavCardPages/Project'));
+const Finance = lazy(() => import('../NavCardPages/Finance'));
+const Warranty = lazy(() => import('../NavCardPages/Warranty'));
+const AboutUs = lazy(() => import('../NavCardPages/AboutUs'));
 const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'));
 
 
