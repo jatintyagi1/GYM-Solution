@@ -20,7 +20,7 @@ const Finance = lazy(() => import('../NavCardPages/Finance'));
 const Warranty = lazy(() => import('../NavCardPages/Warranty'));
 const ReturnPolicy = lazy(() => import('../NavCardPages/ReturnPolicy'));
 const AboutUs = lazy(() => import('../NavCardPages/AboutUs'));
-const ContactUs = lazy(() => import('../Pages Upper Navbar/Contact us/Contactus'));
+const ContactUs = lazy(() => import('../NavCardPages/Contactus'));
 
 
 const NotFound = lazy(() => import('../Pages/NotFound/index'));
