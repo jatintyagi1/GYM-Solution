@@ -1,5 +1,5 @@
 import React from 'react'
-import './faqs.css'
+import '../Styles/NavCardPage/faqs.css';
 
 const Faqs = () => {
   return (
