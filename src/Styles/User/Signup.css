@@ -38,7 +38,7 @@
 
 .form-control:focus {
     border-color: #007bff;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
 
 /* Icon Styles */
@@ -51,6 +51,17 @@
     align-items: center;
     justify-content: center;
     height: 50px;
+}
+
+
+.login-forgot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-forgot p {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Button styles */
