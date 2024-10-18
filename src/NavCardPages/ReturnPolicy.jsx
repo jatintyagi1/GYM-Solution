@@ -1,5 +1,5 @@
 import React from 'react'
-import './policy.css'
+import '../Styles/NavCardPage/policy.css';
 
 const ReturnPolicy = () => {
   return (    
