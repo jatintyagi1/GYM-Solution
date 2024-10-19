@@ -1,5 +1,5 @@
 import React from 'react';
-import './sale.css'
+import '../../Styles/pages/sale.css';
 import SaleImage from '../../Assets/images/Sale';
 
 const Sale = () => {
