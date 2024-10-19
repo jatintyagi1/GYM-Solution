@@ -12,7 +12,7 @@
 - [Contact](#contact)
 
 
-<img src="./public/Images/Image_1.png" width="201px" >
+<img src="./public/Images/Image_1.png" width="201px" height="60vh" >
 
 
 ## About
