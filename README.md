@@ -12,7 +12,7 @@
 - [Contact](#contact)
 
 
-![Project Image](./src/Assets/ReadmeImage/Image_1.png);
+<img src="./src/Assets/ReadmeImage/Image_1.png" width="201px" >
 
 
 ## About
