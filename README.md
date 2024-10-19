@@ -11,6 +11,10 @@
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
 
+
+![Project Image](./src/Assets/ReadmeImage/Image_1.png);
+
+
 ## About
 
 Gym Solution is a trusted supplier of high-quality fitness equipment for gyms, personal training studios, schools, corporate fitness centers, and home gyms. We offer a range of products including treadmills, cross trainers, upright bikes, spin bikes, strength equipment, and more. Our commitment to refurbishing used gym equipment allows our customers to save significantly while receiving top-tier products.
