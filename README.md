@@ -45,6 +45,6 @@ To get started with the project, clone the repository and install the dependenci
 
 ```bash
 git clone https://github.com/jatintyagi1/GYM-Solution.git
-cd GYM-SOLUTION
+cd GYM-Solution
 npm install
 ```
