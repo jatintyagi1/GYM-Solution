@@ -25,7 +25,7 @@ const ContactUs = lazy(() => import('../NavCardPages/Contactus'));
 
 // Page 
 
-const Service = lazy(() => import('../Pages/Services/Service'))
+const Service = lazy(() => import('../Pages/Services'))
 const Sale = lazy(() => import('../Pages/Sale/Sale'))
 
 // NotFound Page

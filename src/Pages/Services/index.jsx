@@ -1,5 +1,5 @@
 import React from 'react'
-import './service.css'
+import '../../Styles/pages/service.css';
 import ServiceImage from '../../Assets/images/Service';
 
 const Service = () => {
