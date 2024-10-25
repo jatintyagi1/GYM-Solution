@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-gym-name">
-                <img src={GYM_Solution_Logo} alt="gym-solution" />
+                <Link to="/"><img src={GYM_Solution_Logo} alt="gym-solution" /></Link>
             </div>
 
             <section className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
