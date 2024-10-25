@@ -21,6 +21,8 @@ Gym Solution is a trusted supplier of high-quality fitness equipment for gyms, p
 
 We operate from our headquarters at New Delhi, and we ship across India and internationally.
 
+<img src="./public//Images/login_page.png" width="100%" height="auto">
+
 ### Key Offerings:
 - New and remanufactured fitness equipment
 - Full gym fitouts and designs
