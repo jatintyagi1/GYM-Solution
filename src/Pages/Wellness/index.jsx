@@ -1,5 +1,5 @@
 import React from 'react'
-import './wellness.css'
+import '../../Styles/pages/wellness.css'
 import ProductCategory from '../../Components/CoreComponents/Product Category/ProductCategory';
 import WellnesImage from '../../Assets/images/Wellnes';
 
