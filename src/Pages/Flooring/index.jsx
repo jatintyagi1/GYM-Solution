@@ -1,5 +1,5 @@
 import React from 'react'
-import './flooring.css'
+import '../../Styles/pages/flooring.css'
 import ProductCategory from '../../Components/CoreComponents/Product Category/ProductCategory';
 import FlooringImage from '../../Assets/images/Flooring';
 

@@ -25,8 +25,9 @@ const ContactUs = lazy(() => import('../NavCardPages/Contactus'));
 
 // Page 
 
-const Service = lazy(() => import('../Pages/Services'))
-const Sale = lazy(() => import('../Pages/Sale/Sale'))
+const Flooring = lazy(() => import('../Pages/Flooring/index'));
+const Service = lazy(() => import('../Pages/Services'));
+const Sale = lazy(() => import('../Pages/Sale/Sale'));
 
 // NotFound Page
 const NotFound = lazy(() => import('../Pages/NotFound/index'));
@@ -54,6 +55,7 @@ function Routing() {
                         <Route path='/About-us' element={<AboutUs />} />
                         <Route path='/Contact-us' element={<ContactUs />} />
 
+                        <Route path='/Flooring' element={<Flooring />} />
                         <Route path='/Service' element={<Service />} />
                         <Route path='/Sale' element={<Sale />} />
 
