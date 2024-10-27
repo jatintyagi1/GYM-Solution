@@ -1,13 +1,13 @@
 import React from 'react'
-import './ourService.css'
-import Service1 from './../../../Assets/logo/Service1.png'
-import Service2 from './../../../Assets/logo/Service2.png'
-import Service3 from './../../../Assets/logo/Service3.png'
-import Service4 from './../../../Assets/logo/Service4.png'
-import Service5 from './../../../Assets/logo/Service5.png'
-import Service6 from './../../../Assets/logo/Service6.png'
-import Service7 from './../../../Assets/logo/Service7.png'
-import Service8 from './../../../Assets/logo/Service8.png'
+import '../../Styles/HomePage/ourService.css'
+import Service1 from './../../Assets/logo/Service1.png'
+import Service2 from './../../Assets/logo/Service2.png'
+import Service3 from './../../Assets/logo/Service3.png'
+import Service4 from './../../Assets/logo/Service4.png'
+import Service5 from './../../Assets/logo/Service5.png'
+import Service6 from './../../Assets/logo/Service6.png'
+import Service7 from './../../Assets/logo/Service7.png'
+import Service8 from './../../Assets/logo/Service8.png'
 
 const ServiceImages = [
     {src: Service1, text: 'Commercial Gym & Health Club'},
