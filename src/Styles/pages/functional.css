@@ -1,0 +1,214 @@
+/* Main container */
+.ft-top-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.ft-top-background-wallpaper {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    text-align: center;
+    justify-content: center;
+    background: #333;
+    color: #fff;
+    height: 50vh;
+}
+
+.ft-top-background-wallpaper h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Main content section */
+.ft-main-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Category container */
+.ft-category-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ft-product-category-container,
+.ft-brand-category-container {
+    width: 48%;
+}
+
+/* Image gallery container */
+.ft-image-full-outer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.ft-image-container-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+/* Individual image container */
+.ft-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.ft-image-container:hover {
+    transform: scale(1.05);
+}
+
+.ft-gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ft-image-description {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #555;
+    text-align: center;
+}
+
+.ft-product-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+.ft-enquire-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ft-enquire-button:hover {
+    background-color: #45a049;
+}
+
+/* Pagination controls */
+.ft-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.ft-pagination button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ft-pagination button:hover {
+    background-color: #ddd;
+}
+
+.ft-pagination button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+
+.ft-pagination span {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ft-top-background-wallpaper h1 {
+        font-size: 2rem;
+    }
+
+    .ft-category-container-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ft-product-category-container,
+    .ft-brand-category-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ft-image-container-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .ft-image-description,
+    .ft-product-price {
+        font-size: 0.9rem;
+    }
+
+    .ft-enquire-button {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .ft-pagination button,
+    .ft-pagination span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ft-top-background-wallpaper h1 {
+        font-size: 1.8rem;
+    }
+
+    .ft-main-container-wrapper {
+        padding: 10px;
+    }
+
+    .ft-image-container-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .ft-image-description,
+    .ft-product-price {
+        font-size: 0.8rem;
+    }
+
+    .ft-enquire-button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+
+    .ft-pagination button,
+    .ft-pagination span {
+        font-size: 0.8rem;
+    }
+}

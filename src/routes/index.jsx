@@ -25,6 +25,7 @@ const ContactUs = lazy(() => import('../NavCardPages/Contactus'));
 
 // Page 
 
+const Functional = lazy(() => import('../Pages/Functional/Functional'))
 const Wellness = lazy(() => import('../Pages/Wellness/index'))
 const Flooring = lazy(() => import('../Pages/Flooring/index'));
 const Service = lazy(() => import('../Pages/Services'));
@@ -56,6 +57,7 @@ function Routing() {
                         <Route path='/About-us' element={<AboutUs />} />
                         <Route path='/Contact-us' element={<ContactUs />} />
 
+                        <Route path='/Functional' element={<Functional />} />
                         <Route path='/Wellness' element={<Wellness />}/>
                         <Route path='/Flooring' element={<Flooring />} />
                         <Route path='/Service' element={<Service />} />

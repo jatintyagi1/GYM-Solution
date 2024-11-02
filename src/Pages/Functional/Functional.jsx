@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../Styles/pages/functional.css';
 import { useState } from 'react';
 import ProductCategory from '../../Components/CoreComponents/Product Category/ProductCategory';
-import BrandCategory from './../../Components/CoreComponents/Brand Category/BrandCategory';
+import BrandCategory from '../../Components/CoreComponents/Brand Category/BrandCategory';
 import FunctionalImage from '../../Assets/ImageArray/functional';
  
 
