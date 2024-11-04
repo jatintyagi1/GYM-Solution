@@ -34,7 +34,7 @@ export default function SignIn() {
                 position: 'top-center',
                 autoClose: 3000, // Closes after 3 seconds
             });
-            setTimeout(() => navigate('/'), 3000); // Navigate after toast disappears
+            setTimeout(() => navigate('/profile'), 3000); // Navigate after toast disappears
         } else {
             toast.error('Invalid email or password', {
                 position: 'top-center',

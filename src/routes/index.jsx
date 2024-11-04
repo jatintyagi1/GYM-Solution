@@ -35,6 +35,9 @@ const Sale = lazy(() => import('../Pages/Sale/Sale'));
 const NotFound = lazy(() => import('../Pages/NotFound/index'));
 
 
+// Auth Routes
+const Profile = lazy(() => import('../Components/Profile/Profile'))
+
 function Routing() {
     return (
         <>
@@ -62,6 +65,9 @@ function Routing() {
                         <Route path='/Flooring' element={<Flooring />} />
                         <Route path='/Service' element={<Service />} />
                         <Route path='/Sale' element={<Sale />} />
+
+
+                        <Route path='/profile' element={<Profile />} />
 
                         <Route path="*" element={<NotFound />} />
                     </Routes>
