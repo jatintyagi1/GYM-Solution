@@ -2,7 +2,6 @@
 .profile {
     width: 100%;
     height: auto;
-    /* Allow height to adjust based on content */
     padding-top: 70px;
 }
 
@@ -28,7 +27,6 @@ h2 {
 .profile-card {
     display: flex;
     flex-direction: column;
-    /* Stack vertically on smaller screens */
     align-items: center;
     width: 100%;
 }
@@ -72,7 +70,6 @@ h2 {
 
 .profile-buttons button {
     margin: 5px 0;
-    /* Spacing between buttons */
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -92,7 +89,6 @@ h2 {
 
 .logout-button {
     background-color: #f44336;
-    /* Red */
     color: white;
 }
 

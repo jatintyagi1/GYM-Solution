@@ -8,8 +8,7 @@ const Profile = () => {
         return savedData ? JSON.parse(savedData) : { name: '', email: '', mobileNumber: '' };
     });
 
-    // Optionally, if you need to indicate the user has logged out:
-    const [isLoggedIn, setIsLoggedIn] = useState(true); // Initially set to true if logged in
+    const [isLoggedIn, setIsLoggedIn] = useState(true); 
 
     const navigate = useNavigate();
     const handleLogout = () => {
