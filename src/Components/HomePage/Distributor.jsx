@@ -1,6 +1,6 @@
 import React from 'react'
-import './distributors.css'
-import BH_Fitness from './../../../Assets/images/BH_Fitness.png'
+import '../../Styles/HomePage/distributors.css'
+import BH_Fitness from './../../Assets/images/BH_Fitness.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTruck, faHome, faHeart, faPhone } from '@fortawesome/free-solid-svg-icons';
 

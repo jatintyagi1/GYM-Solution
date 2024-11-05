@@ -11,6 +11,7 @@ const Profile = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(true); 
 
     const navigate = useNavigate();
+    
     const handleLogout = () => {
         setIsLoggedIn(false);
         navigate('/login');
