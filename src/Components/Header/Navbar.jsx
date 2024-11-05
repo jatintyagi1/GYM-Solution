@@ -8,11 +8,18 @@ import '../../Styles/NavBar.css';
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
+    const [userdata] = useState(() => {
+        const savedData = localStorage.getItem('userData');
+        return savedData ? JSON.parse(savedData) : { name: '', email: '', mobileNumber: '' };
+    });
+
     // Check if user is logged in
     const isLoggedIn = () => {
         const userData = localStorage.getItem('userData');
         return userData !== null; // Check if user data exists
     };
+
+
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
@@ -40,7 +47,7 @@ export default function Navbar() {
 
             <div className="navbar-user-account">
                 <Link to={isLoggedIn() ? '/profile' : '/login'}>
-                    <button>My Account</button>
+                    {isLoggedIn ? <button>{userdata.name}</button> : <button>My Account</button>}
                 </Link>
                 <FontAwesomeIcon
                     icon={faBars}
