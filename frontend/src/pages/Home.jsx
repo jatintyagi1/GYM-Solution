@@ -7,6 +7,7 @@ const Home = () => {
     return (
         <div>
             <NavCard />
+            <Navbar />
             <div style={{ height: '50vh'}}>
            
 

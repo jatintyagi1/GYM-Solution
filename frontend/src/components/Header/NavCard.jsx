@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../../styles/NavCard.css'
 import useResponsive from "../../utils/useResponsive";
 import { TelephoneFill, Facebook, Instagram, Youtube, Linkedin, Search, Cart3 } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom'
