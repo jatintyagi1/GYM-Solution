@@ -2,13 +2,17 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
 
-const Home = lazy(() => import('./pages/Home'))
+const Home = lazy(() => import('./pages/Home'));
+const Register = lazy(() => import('./pages/Register'));
+const Login = lazy(() => import('./pages/Login'));
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/register' element={<Register />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </BrowserRouter>
   )

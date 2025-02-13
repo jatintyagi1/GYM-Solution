@@ -1,7 +1,5 @@
 
-
 const Footer = () => {
-    console.log('footer')
     return (
         <footer className="bg-dark text-light py-5">
             <section className="container mb-4">
