@@ -30,7 +30,7 @@ function Desktop() {
                         <li className="nav-item"><Link className="nav-link" to="/FAQs">FAQs</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/About-us">About us</Link></li>
                         <li className="nav-item"><Link className="nav-link" to="/blog-News">Blog/News</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/Contact-us">Contact us</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/contact-us">Contact us</Link></li>
                     </ul>
                 </div>
 
