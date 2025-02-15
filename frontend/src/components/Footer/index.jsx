@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -19,10 +20,10 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <h5>We are available in whole India</h5>
                         <ul className="list-unstyled">
-                            <li className="text-light">Contact Us</li>
-                            <li className="text-light">About Us</li>
-                            <li className="text-light">New Delhi</li>
-                            <li className="text-light">Mumbai</li>
+                            <li><Link to="/contact-us" className="text-light text-decoration-none">Contact Us</Link></li>
+                            <li><Link to="/about-us" className="text-light text-decoration-none">About Us</Link></li>
+                            <li><Link to="/New-Delhi" className="text-light text-decoration-none">New Delhi</Link></li>
+                            <li><Link to="/Mumbai" className="text-light text-decoration-none">Mumbai</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-3 col-md-6">

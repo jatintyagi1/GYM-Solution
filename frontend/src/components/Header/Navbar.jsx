@@ -70,9 +70,11 @@ function Desktop() {
               3
             </span>
           </button>
-          <button className="btn btn-outline-light">
-            <PersonCircle size={20} />
-          </button>
+          <Link to="/register">
+            <button className="btn btn-outline-light">
+              <PersonCircle size={20} />
+            </button>
+          </Link>
         </div>
 
       </div>
@@ -116,9 +118,11 @@ function Mobile() {
                 3
               </span>
             </button>
-            <button className="btn btn-outline-light">
-              <PersonCircle size={20} />
-            </button>
+            <Link to="/register">
+              <button className="btn btn-outline-light">
+                <PersonCircle size={20} />
+              </button>
+            </Link>
           </div>
 
           <button className="close-btn btn btn-danger mb-3" onClick={() => setSidebarOpen(false)}>✖</button>

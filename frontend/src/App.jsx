@@ -15,8 +15,8 @@ const ContactUs = lazy(() => import('./pages/ContactUs'))
 function App() {
   return (
     <BrowserRouter>
-    <NavCard />
-    <Navbar />
+      <NavCard />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/register' element={<Register />} />
